@@ -1,6 +1,7 @@
 # KWDLC2NERDataset
 [京都大学ウェブ文書リードコーパス](http://nlp.ist.i.kyoto-u.ac.jp/index.php?KWDLC)を固有表現抽出データセット化
 
+[English Version README](https://github.com/s14t284/KWDLC2NERDataset/blob/master/README.en.md)
 
 ## Requirements
 
