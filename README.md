@@ -20,7 +20,25 @@ python3 run.py -d 京都大学ウェブ文書リードコーパスのパス(bzip
 ```
 
 
-## make NER dataset script
+## About Dataset
+
+### NE types
+
+- ORG: ORGANIZATION
+- PER: PERSON
+- LOC: LOCATION
+- ART: ARTIFACT
+- DAT: DATE
+- TIM: TIME
+- MON: MONEY
+- PER: PERCENT
+
+### tagging scheme
+
+- IOB2
+
+
+## making NER dataset script
 
 ```
 usage: run.py [-h] [-d DATASET] [-f FILE]

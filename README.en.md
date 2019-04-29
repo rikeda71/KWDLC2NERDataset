@@ -19,6 +19,24 @@ python3 run.py -d /path/to/KWDLC-1.0.tar.bz2
 ```
 
 
+## About Dataset
+
+### NE types
+
+- ORG: ORGANIZATION
+- PER: PERSON
+- LOC: LOCATION
+- ART: ARTIFACT
+- DAT: DATE
+- TIM: TIME
+- MON: MONEY
+- PER: PERCENT
+
+### tagging scheme
+
+- IOB2
+
+
 ## make NER dataset script
 
 ```
