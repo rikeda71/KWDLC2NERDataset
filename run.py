@@ -39,8 +39,12 @@ def label_indexes_to_morphs(formatted_data: List[str]) \
                     break
             tmp.sort()
             for i, b in enumerate(tmp):
-                labels[b] = 'B-{}'.format(label[:3]) if i == 0\
-                    else 'I-{}'.format(label[:3])
+                if label == 'PERSON':
+                    ne_label = 'PSN'
+                else:
+                    ne_label = label[:3]
+                labels[b] = 'B-{}'.format(ne_label) if i == 0\
+                    else 'I-{}'.format(ne_label)
             morphs.append(None)
         else:
             morphs.append(text)

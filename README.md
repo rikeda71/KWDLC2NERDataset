@@ -25,7 +25,7 @@ python3 run.py -d 京都大学ウェブ文書リードコーパスのパス(bzip
 ### NE types
 
 - ORG: ORGANIZATION
-- PER: PERSON
+- PSN: PERSON
 - LOC: LOCATION
 - ART: ARTIFACT
 - DAT: DATE

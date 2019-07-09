@@ -24,7 +24,7 @@ python3 run.py -d /path/to/KWDLC-1.0.tar.bz2
 ### NE types
 
 - ORG: ORGANIZATION
-- PER: PERSON
+- PSN: PERSON
 - LOC: LOCATION
 - ART: ARTIFACT
 - DAT: DATE
